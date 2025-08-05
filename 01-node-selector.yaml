@@ -1,3 +1,6 @@
+# This code is for node selector
+# A node selector is the simplest way to control which node a Pod gets scheduled on in a 
+# Kubernetes cluster. It uses labels on nodes to guide the scheduler.
 
 apiVersion: v1
 kind: Pod
@@ -11,6 +14,6 @@ spec:
     image: nginx
     imagePullPolicy: Always
   nodeSelector:
-    disktype: ssd
+    disktype: ssd  # node labeld
 
 

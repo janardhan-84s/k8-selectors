@@ -1,4 +1,4 @@
-
+# This code is for taints and toleratioons
 apiVersion: v1
 kind: Pod
 metadata:

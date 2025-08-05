@@ -14,7 +14,7 @@ spec:
       #       values:
       #       #- gpu
       #       - gpuuu
-      preferredDuringSchedulingIgnoredDuringExecution: # soft link
+      preferredDuringSchedulingIgnoredDuringExecution: # soft rule
       - weight: 1
         preference:
           matchExpressions:

@@ -1,4 +1,4 @@
-## kUBERNETES SELECTORS ##
+## KUBERNETES SELECTORS ##
 
 k8 Selectors : A selector in Kubernetes is a way to find and group resources (like Pods) based on their labels, so other components (like Services or ReplicaSets) can interact with them automatically.
 

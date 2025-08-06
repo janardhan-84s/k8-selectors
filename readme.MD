@@ -8,6 +8,7 @@ The below are the selectors:
                   scheduled on in a Kubernetes cluster. It uses labels on nodes to guide the scheduler.
 
 2. Taints and Tolerations:
+
    Taints ----> Taint is a way to stop unwanted PODS from running on a Node
    1. prefernoschedule- Requesting scheduler not to schedule the PODS. scheduler still 
                         schedules the PODS
